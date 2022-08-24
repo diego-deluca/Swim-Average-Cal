@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swim Average Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label class="title"
+        >PRESS 'CALCULATE' BUTTON TO GET AVERAGE TIME FOR METERS DESIRED</label
+      >
+    </div>
+    <div class="container">
+      <input
+        class="input-box"
+        type="text"
+        placeholder="Meters did"
+        id="meters1-input"
+      />
+      <input
+        class="input-box"
+        type="text"
+        placeholder="Meters for AVG time"
+        id="meters2-input"
+      />
+
+      <input
+        class="input-box"
+        type="text"
+        placeholder="Minutes"
+        id="minutes-input"
+      />
+      <input
+        class="input-box"
+        type="text"
+        placeholder="Seconds"
+        id="seconds-input"
+      />
+    </div>
+    <div class="container">
+      <button class="button-box" id="btn">CALCULATE</button>
+    </div>
+    <div class="container">
+      <label class="result" id="result"></label>
+    </div>
+    <div class="container">
+      <label class="result" id="resultAvg"></label>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
