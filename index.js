@@ -21,14 +21,9 @@ document.getElementById("btn").onclick = function () {
   let resultSec = (resultTotal % 1) * 60;
   resultSec = resultSec.toFixed(2);
   document.getElementById("result").innerHTML = resultTotal + " Minutes";
-  document.getElementById("resultAvg").innerHTML =
-    "The average time for " +
-    meters2 +
-    " Mts is: " +
-    resultMin +
-    " Mins " +
-    resultSec +
-    " Secs";
+  document.getElementById(
+    "resultAvg"
+  ).innerHTML = `The average time for ${meters2} Mts is: ${resultMin} Mins ${resultSec} Secs`;
 };
 
 // Converts time in minutes to seconds and performs the addition to get the total time
